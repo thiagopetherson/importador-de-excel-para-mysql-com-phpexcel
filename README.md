@@ -1,5 +1,5 @@
 # importador-de-excel-para-mysql
-Script feito em PHP com AJAX para realizar a importação de planilhas do excel (.xls, etc...) e inserir os dados no banco MySQL.
+Script feito em PHP com AJAX para realizar a importação de planilhas do excel (.xls, etc...) e inserir os dados no banco MySQL. Utilizamos a lib PHPExcel.
 
 Código feito em PHP e JS (com jQuery) para a importação de uma planilha do excel, manipulação e conversão dos seus dados e inserção dos dados em uma tabela do MySQL. 
 Foi utilizado a lib PHPEXCEL que foi descontinuada e só funciona até a versão 7.3 do PHP.
