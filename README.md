@@ -6,6 +6,8 @@ Foi utilizado a lib PHPEXCEL que foi descontinuada e só funciona até a versão
 
 A planilha no formato .xls e a tabela do banco de dados também seguem aqui no repositório. 
 
+Altere o arquivo de conexão com o banco para as suas credenciais (se necessário).
+
 Qualquer dúvida é só entrar em contato:
 thiagopetherson.com.br
 thiagopetherson@outlook.com
