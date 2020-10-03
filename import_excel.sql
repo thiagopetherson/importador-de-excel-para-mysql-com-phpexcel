@@ -1,6 +1,6 @@
 /*
 SQLyog Community v13.1.2 (64 bit)
-MySQL - 5.7.24 : Database - import_excel
+MySQL - 5.7.28 : Database - import_excel
 *********************************************************************
 */
 
@@ -23,15 +23,13 @@ DROP TABLE IF EXISTS `tbl_import_excel`;
 CREATE TABLE `tbl_import_excel` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(100) DEFAULT NULL,
-  `idade` varchar(3) DEFAULT NULL,
+  `idade` varchar(10) DEFAULT NULL,
   `sexo` varchar(20) DEFAULT NULL,
   `estado_civil` varchar(30) DEFAULT NULL,
   `cidade` varchar(50) DEFAULT NULL,
   `uf` varchar(2) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Cadastro de dados vindos da planilha do excel';
-
-/*Data for the table `tbl_import_excel` */
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Cadastro de dados vindos da planilha do excel';
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
