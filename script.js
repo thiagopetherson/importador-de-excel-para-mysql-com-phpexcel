@@ -44,12 +44,16 @@ $(document).ready(function()
 			{
 					if(retorno == "sucesso")
 					{
-						alert("Dados Inseridos com Sucesso!")
+						alert("Dados Inseridos com Sucesso!");
+						location.reload();
 					}
 					else
 					{	
 						alert("Dados não inseridos");
-					}		
+						location.reload();
+					}	
+
+
 
 			}).fail(function() 
 			{
